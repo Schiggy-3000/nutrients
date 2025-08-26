@@ -1,0 +1,9 @@
+### requirements.txt erstellen
+
+# Not verified part
+Terminal > New Terminal >  Git Bash Terminal öffnen
+source .venv/Scripts/activate
+pip list
+
+# Verified part
+pip freeze > requirements.txt
