@@ -1,0 +1,17 @@
+### Benötigtes Package installieren
+Terminal > New Terminal >  Git Bash Terminal öffnen
+source .venv/Scripts/activate
+pip list
+pip install python-dotenv
+pip list
+
+
+### .env File mit allen API Keys erstellen
+.env
+.env > NAME_VOM_API_KEY=apikeyohneanführungszeichen
+Achtung: .env im .gitignore hinzufügen (.env)
+
+
+### Python code
+load_dotenv()
+API_KEY = os.getenv("NEME_VOM_API_KEY")

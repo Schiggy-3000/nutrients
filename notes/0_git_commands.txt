@@ -1,0 +1,122 @@
+
+# Repo erstellen
+Git > Repositories > New > Neues Repo anlegen
+
+
+# Git auf lokalem Device initialisieren & erster push
+VS Code > Any Dir > Git Bash Console öffnen
+git init
+echo "Readme placeholder" >> README.md		--> File erstellen das gepushed werden kann.
+git add README.md
+git commit -m "Initial commit"
+git branch -M main                          --> -M: move/rename current branch, main: New branch name
+git branch                                  --> Aktiver Branch anzeigen
+git remote add origin https://github.com/Schiggy-3000/nutrients.git
+git remote -v                               --> Zeigt verbundenes Remote Repo an
+git push -u origin main                     --> origin: Remote Repo, main: Branch auf die gepushed wird
+
+
+# Neue Branch erstellen & in Branch moven
+git branch									--> Aktiver Branch anzeigen
+git branch BRANCH_NAME						--> Branch erstellen
+git switch BRANCH_NAME						--> Zu Branch wechseln
+git push --set-upstream origin BRANCH_NAME	--> Branch mit dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+
+
+# Änderung pushen
+git add .						--> Working dir > Staging Area
+git commit -m "comment"			--> Staging Area > Lokales Repo, m: Message
+git push						--> Lokales Repo > Remote Repo
+git push -u origin BRANCH_NAME	--> origin: Remote Repo, BRANCH_NAME: Branch auf die gepushed wird 
+
+
+
+
+
+
+
+
+
+
+
+# Git Dir initialisieren
+VS Code > Any Dir
+git init
+
+
+# Remote Repo hinzufügen (mit User+PW, nicht mit SSH Key)
+git remote add origin https://github.com/Schiggy-3000/nutrients.git
+git remote -v						--> Zeigt verbundenes Remote Repo an
+
+
+# Initialer Push
+echo "Readme placeholder" >> README.md		--> File erstellen das gepushed werden kann.
+git add README.md
+git commit -m "Initial commit"
+git branch
+git push --set-upstream origin master
+git push
+
+
+--> Noch nicht pushen (git push)!
+git branch
+git branch BRANCH_NAME
+git switch BRANCH_NAME
+git push --set-upstream origin BRANCH_NAME
+
+
+
+
+
+
+# Git Branch + in Branch moven
+git branch									--> Aktiver Branch anzeigen
+git branch BRANCH_NAME						--> Branch erstellen
+git switch BRANCH_NAME						--> Zu Branch wechseln
+git push --set-upstream origin BRANCH_NAME	--> Branch mit dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+
+
+# Initialer Push
+echo "Readme placeholder" >> README.md		--> File erstellen das gepushed werden kann.
+git push --set-upstream origin BRANCH_NAME	--> Branch mite dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+git add README.md
+git commit -m "Initial commit"
+git push
+
+
+# Änderung pushen
+git add .						--> Working dir > Staging Area
+git commit -m "comment"			--> Staging Area > Lokales Repo, m: Message
+git push						--> Lokales Repo > Remote Repo
+git push -u origin BRANCH_NAME	--> origin: Remote Repo, BRANCH_NAME: Branch auf die gepushed wird 
+
+
+# Merge Branch mit Master
+git switch BRANCH_NAME
+git merge BRANCH_NAME
+... --> Create pull request. Anfragen, dass BRANCH_NAME mit origin zusammengeführt wird.
+... --> Merge pull request. Nach Code review: Anfrage für pull request annehmen.
+
+
+# Änderung von Remote Repo pullen
+git pull origin BRANCH_NAME
+
+
+# Rollback
+git log								--> Zeig ID (Hash) aller Commits.
+git revert COMMIT_HASH				--> COMMIT_HASH: Hash von Commit der rückgängig gemacht werden soll.
+ctrl + x
+git log								--> Revert prüfen
+git push --force origin BRANCH_NAME	--> Reset auch auf Remote Repo pushen.
+
+
+# Rollback ohne History zu behalten
+git log								--> Zeig ID (Hash) aller Commits.
+git reset --hard COMMIT_HASH		--> Setzt alles zurück bis zum gewählten Commit.
+git log								--> Commit History prüfen.
+git push --force origin BRANCH_NAME	--> Reset auch auf Remote Repo pushen.
+
+
+# Misc
+git status
+git log			--> Commit History
