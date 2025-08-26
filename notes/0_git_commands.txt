@@ -56,4 +56,6 @@ git push --force origin BRANCH_NAME	--> Reset auch auf Remote Repo pushen.
 
 # Misc
 git status
-git log			--> Commit History
+git log			        --> Commit History
+git branch -d mybranch  --> Safe delete branch
+git branch -D mybranch  --> Force delete branch
