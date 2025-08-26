@@ -33,7 +33,9 @@ git push -u origin mybranch 	--> origin: Remote Repo, mybranch: Branch auf die g
 # Merge eigene Branch (mybranch) mit default Branch (main)
 Git > Repo > Pull requests > "New pull request" > base: main, compare: mybranch > Create pull request > Merge pull request > Confirm merge
 Git > Repo > Pull requests > Pull request auswählen > "Merge pull request"
-git branch -D mybranch  --> Force delete branch
+git switch main
+git pull origin main
+git branch -D mybranch  --> Force delete branch. Weitere Änderung in neuer Branch vornehmen.
 
 
 
