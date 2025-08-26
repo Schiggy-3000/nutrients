@@ -31,12 +31,82 @@ git push -u origin mybranch 	--> origin: Remote Repo, mybranch: Branch auf die g
 
 
 # Merge eigene Branch (mybranch) mit default Branch (main)
-Git > Repo > "Compare & pull request" > Request erstellen > "Create pull request"
-Git > Repo > Pull requests > Pull request auswählen > "Merge pull request"
+git switch BRANCH_NAME
+git merge BRANCH_NAME
+... --> Create pull request. Anfragen, dass BRANCH_NAME mit origin zusammengeführt wird.
+... --> Merge pull request. Nach Code review: Anfrage für pull request annehmen.
+
+
+
+
+
+
+
+
+
+
+
+# Git Dir initialisieren
+VS Code > Any Dir
+git init
+
+
+# Remote Repo hinzufügen (mit User+PW, nicht mit SSH Key)
+git remote add origin https://github.com/Schiggy-3000/nutrients.git
+git remote -v						--> Zeigt verbundenes Remote Repo an
+
+
+# Initialer Push
+echo "Readme placeholder" >> README.md		--> File erstellen das gepushed werden kann.
+git add README.md
+git commit -m "Initial commit"
+git branch
+git push --set-upstream origin master
+git push
+
+
+--> Noch nicht pushen (git push)!
+git branch
+git branch BRANCH_NAME
+git switch BRANCH_NAME
+git push --set-upstream origin BRANCH_NAME
+
+
+
+
+
+
+# Git Branch + in Branch moven
+git branch									--> Aktiver Branch anzeigen
+git branch BRANCH_NAME						--> Branch erstellen
+git switch BRANCH_NAME						--> Zu Branch wechseln
+git push --set-upstream origin BRANCH_NAME	--> Branch mit dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+
+
+# Initialer Push
+echo "Readme placeholder" >> README.md		--> File erstellen das gepushed werden kann.
+git push --set-upstream origin BRANCH_NAME	--> Branch mite dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+git add README.md
+git commit -m "Initial commit"
+git push
+
+
+# Änderung pushen
+git add .						--> Working dir > Staging Area
+git commit -m "comment"			--> Staging Area > Lokales Repo, m: Message
+git push						--> Lokales Repo > Remote Repo
+git push -u origin BRANCH_NAME	--> origin: Remote Repo, BRANCH_NAME: Branch auf die gepushed wird 
+
+
+# Merge Branch mit Master
+git switch BRANCH_NAME
+git merge BRANCH_NAME
+... --> Create pull request. Anfragen, dass BRANCH_NAME mit origin zusammengeführt wird.
+... --> Merge pull request. Nach Code review: Anfrage für pull request annehmen.
 
 
 # Änderung von Remote Repo pullen
-git pull origin mybranch
+git pull origin BRANCH_NAME
 
 
 # Rollback

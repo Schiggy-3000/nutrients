@@ -1,0 +1,16 @@
+### .venv aktivieren
+View > Command Palette > Python: Select Interpreter > .\venv\Scripts\python.exe
+TERMINAL NEU STARTEN falls bereits eins geöffnet war!!!
+Terminal > New Terminal >  Git Bash Terminal öffnen
+which python    --> Prüfen ob korrekte Python Runtime aktiv ist.
+pip list        --> Nur pip & setuptools sollten sichtbar sein.
+pip install google-cloud-aiplatform google-genai google-generativeai
+pip list
+
+
+### ALTERNATIVE
+Terminal > New Terminal >  Git Bash Terminal öffnen
+source .venv/Scripts/activate
+pip list
+pip install google-cloud-aiplatform google-genai
+pip list

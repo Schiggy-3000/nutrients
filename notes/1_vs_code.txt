@@ -1,0 +1,2 @@
+### Diverses
+Comment/Uncomment multiple lines (WIN): SHIFT + ALT + A

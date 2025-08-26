@@ -1,0 +1,20 @@
+### .venv erstellen
+.venv in Visual Studio erstellen: View > Command Palette > Python: Create Environment ... > Venv > Enter interpreter path... > c:\Users\gmei\Anaconda3
+--> Details in: .venv/pyvenv.cfg
+--> Path zu Python: c:\Users\NAMEVOMUSER\Anaconda3
+
+
+### .venv aktivieren
+View > Command Palette > Python: Select Interpreter > .\venv\Scripts\python.exe
+TERMINAL NEU STARTEN falls bereits eins geöffnet war!!!
+ACHTUNG, WENN PC ändert, muss ggf. im pyvenv.cfg die home Varaible geändert werden (home=C:\Users\...\Anaconda3)
+Terminal > New Terminal >  Git Bash Terminal öffnen
+which python    --> Prüfen ob korrekte Python Runtime aktiv ist.
+pip list        --> Nur pip & setuptools sollten sichtbar sein.
+
+
+### Packages installieren
+Terminal > New Terminal >  Git Bash Terminal öffnen > ...
+which python
+pip list
+pip install pandas datetime requests lxml
