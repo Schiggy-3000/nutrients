@@ -31,7 +31,7 @@ git push -u origin mybranch 	--> origin: Remote Repo, mybranch: Branch auf die g
 
 
 # Merge eigene Branch (mybranch) mit default Branch (main)
-Git > Repo > "Compare & pull request" > Request erstellen > "Create pull request"
+Git > Repo > Pull requests > "New pull request" > base: main, compare: mybranch > Create pull request
 Git > Repo > Pull requests > Pull request auswählen > "Merge pull request"
 
 
@@ -56,4 +56,6 @@ git push --force origin BRANCH_NAME	--> Reset auch auf Remote Repo pushen.
 
 # Misc
 git status
-git log			--> Commit History
+git log			        --> Commit History
+git branch -d mybranch  --> Safe delete branch
+git branch -D mybranch  --> Force delete branch
