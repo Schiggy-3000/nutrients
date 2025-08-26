@@ -18,16 +18,23 @@ git push -u origin main                     --> origin: Remote Repo, main: Branc
 
 # Neue Branch erstellen & in Branch moven
 git branch									--> Aktiver Branch anzeigen
-git branch BRANCH_NAME						--> Branch erstellen
-git switch BRANCH_NAME						--> Zu Branch wechseln
-git push --set-upstream origin BRANCH_NAME	--> Branch mit dem Namen BRANCH_NAME auf dem Remote Repo erstellen.
+git branch mybranch 						--> Branch erstellen
+git switch mybranch 						--> Zu Branch wechseln
+git push --set-upstream origin mybranch 	--> Branch mit dem Namen mybranch auf dem Remote Repo erstellen.
 
 
 # Änderung pushen
 git add .						--> Working dir > Staging Area
 git commit -m "comment"			--> Staging Area > Lokales Repo, m: Message
 git push						--> Lokales Repo > Remote Repo
-git push -u origin BRANCH_NAME	--> origin: Remote Repo, BRANCH_NAME: Branch auf die gepushed wird 
+git push -u origin mybranch 	--> origin: Remote Repo, mybranch: Branch auf die gepushed wird 
+
+
+# Merge eigene Branch (mybranch) mit default Branch (main)
+git switch BRANCH_NAME
+git merge BRANCH_NAME
+... --> Create pull request. Anfragen, dass BRANCH_NAME mit origin zusammengeführt wird.
+... --> Merge pull request. Nach Code review: Anfrage für pull request annehmen.
 
 
 
