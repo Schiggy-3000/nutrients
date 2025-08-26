@@ -1,0 +1,93 @@
+[
+  {
+    "Nährstoff": "Biotin",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 40.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Cobalamin (B12)",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 4.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Folat",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 330.0,
+    "Einheit": "µg DFE"
+  },
+  {
+    "Nährstoff": "Niacin",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 1.6,
+    "Einheit": "NE/MJ"
+  },
+  {
+    "Nährstoff": "Pantothensäure (B5)",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 5.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Riboflavin (B2)",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 1.6,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Thiamin",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 0.1,
+    "Einheit": "mg/MJ"
+  },
+  {
+    "Nährstoff": "Vitamin A",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 750.0,
+    "Einheit": "µg-RE"
+  },
+  {
+    "Nährstoff": "Vitamin B6",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 1.7,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Vitamin D",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 15.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Vitamin K",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 70.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Vitamin C",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 110.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Vitamin E",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 13.0,
+    "Einheit": "mg"
+  }
+]

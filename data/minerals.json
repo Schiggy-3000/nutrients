@@ -1,0 +1,100 @@
+[
+  {
+    "Nährstoff": "Calcium",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": "1000",
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Chlorid",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 3.1,
+    "Einheit": "g"
+  },
+  {
+    "Nährstoff": "Kupfer",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 1.6,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Fluorid",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 3.4,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Jod",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 150.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Eisen",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 11.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Magnesium",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 350.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Mangan",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 3.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Molybdän",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 65.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Phosphor",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 550.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Kalium",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 3500.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Selen",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 70.0,
+    "Einheit": "µg"
+  },
+  {
+    "Nährstoff": "Natrium",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": 2000.0,
+    "Einheit": "mg"
+  },
+  {
+    "Nährstoff": "Zink",
+    "Alter": "18-65 Jahre",
+    "Geschlecht": "Männlich",
+    "Menge": "11.7",
+    "Einheit": "mg"
+  }
+]
