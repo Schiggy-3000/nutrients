@@ -21,7 +21,7 @@
     "Einheit": "µg DFE"
   },
   {
-    "Nährstoff": "Niacin",
+    "Nährstoff": "Niacin (B3)",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
     "Menge": 1.6,
@@ -42,7 +42,7 @@
     "Einheit": "mg"
   },
   {
-    "Nährstoff": "Thiamin",
+    "Nährstoff": "Thiamin (B1)",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
     "Menge": 0.1,

@@ -1,0 +1,144 @@
+[
+  {
+    "Name": "AG1",
+    "Mineralien": [
+        {
+            "Nährstoff": "Calcium",
+            "Menge": 120,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Chlorid",
+            "Menge": 0.0,
+            "Einheit": "g"
+        },
+        {
+            "Nährstoff": "Kupfer",
+            "Menge": 0.2,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Fluorid",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Jod",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Eisen",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Magnesium",
+            "Menge": 57.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Mangan",
+            "Menge": 0.4,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Molybdän",
+            "Menge": 45.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Phosphor",
+            "Menge": 125.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Kalium",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Selen",
+            "Menge": 22.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Natrium",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Zink",
+            "Menge": 10,
+            "Einheit": "mg"
+        }
+    ],
+    "Vitamine": [
+        {
+            "Nährstoff": "Biotin",
+            "Menge": 330.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Cobalamin (B12)",
+            "Menge": 50.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Folat",
+            "Menge": 0.0,
+            "Einheit": "µg DFE"
+        },
+        {
+            "Nährstoff": "Niacin (B3)",
+            "Menge": 16.0,
+            "Einheit": "mg NE"
+        },
+        {
+            "Nährstoff": "Pantothensäure (B5)",
+            "Menge": 5.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Riboflavin (B2)",
+            "Menge": 2.9,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Thiamin (B1)",
+            "Menge": 3.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin A",
+            "Menge": 250.0,
+            "Einheit": "µg-RE"
+        },
+        {
+            "Nährstoff": "Vitamin B6",
+            "Menge": 5.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin D",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Vitamin K",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Vitamin C",
+            "Menge": 420.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin E",
+            "Menge": 32.0,
+            "Einheit": "mg"
+        }
+    ]
+  }
+]
