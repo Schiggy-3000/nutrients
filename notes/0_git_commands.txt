@@ -35,6 +35,7 @@ Git > Repo > Pull requests > "New pull request" > base: main, compare: mybranch 
 Git > Repo > Pull requests > Pull request auswählen > "Merge pull request"
 git switch main
 git pull origin main
+git reset --hard main   --> After merging, reset header?
 git branch -D mybranch  --> Force delete branch. Weitere Änderung in neuer Branch vornehmen.
 
 
