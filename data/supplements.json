@@ -4,7 +4,7 @@
     "Mineralien": [
         {
             "Nährstoff": "Calcium",
-            "Menge": 120,
+            "Menge": 120.0,
             "Einheit": "mg"
         },
         {
@@ -69,7 +69,7 @@
         },
         {
             "Nährstoff": "Zink",
-            "Menge": 10,
+            "Menge": 10.0,
             "Einheit": "mg"
         }
     ],
@@ -85,9 +85,9 @@
             "Einheit": "µg"
         },
         {
-            "Nährstoff": "Folat",
-            "Menge": 0.0,
-            "Einheit": "µg DFE"
+            "Nährstoff": "Folsäure",
+            "Menge": 300.0,
+            "Einheit": "µg"
         },
         {
             "Nährstoff": "Niacin (B3)",
@@ -137,6 +137,148 @@
         {
             "Nährstoff": "Vitamin E",
             "Menge": 32.0,
+            "Einheit": "mg"
+        }
+    ]
+  },
+  {
+    "Name": "Mineral Complete (More Nutrition)",
+    "Mineralien": [
+        {
+            "Nährstoff": "Calcium",
+            "Menge": 400.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Chlorid",
+            "Menge": 0.0,
+            "Einheit": "g"
+        },
+        {
+            "Nährstoff": "Kupfer",
+            "Menge": 0.5,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Fluorid",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Jod",
+            "Menge": 125.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Eisen",
+            "Menge": 14.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Magnesium",
+            "Menge": 200.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Mangan",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Molybdän",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Phosphor",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Kalium",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Selen",
+            "Menge": 55.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Natrium",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Zink",
+            "Menge": 15.0,
+            "Einheit": "mg"
+        }
+    ],
+    "Vitamine": [
+        {
+            "Nährstoff": "Biotin",
+            "Menge": 130.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Cobalamin (B12)",
+            "Menge": 2.6,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Folsäure",
+            "Menge": 300.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Niacin (B3)",
+            "Menge": 0.0,
+            "Einheit": "mg NE"
+        },
+        {
+            "Nährstoff": "Pantothensäure (B5)",
+            "Menge": 4.5,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Riboflavin (B2)",
+            "Menge": 1.4,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Thiamin (B1)",
+            "Menge": 0.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin A",
+            "Menge": 600.0,
+            "Einheit": "µg-RE"
+        },
+        {
+            "Nährstoff": "Vitamin B6",
+            "Menge": 1.4,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin D",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Vitamin K",
+            "Menge": 0.0,
+            "Einheit": "µg"
+        },
+        {
+            "Nährstoff": "Vitamin C",
+            "Menge": 60.0,
+            "Einheit": "mg"
+        },
+        {
+            "Nährstoff": "Vitamin E",
+            "Menge": 0.0,
             "Einheit": "mg"
         }
     ]

@@ -14,18 +14,18 @@
     "Einheit": "µg"
   },
   {
-    "Nährstoff": "Folat",
+    "Nährstoff": "Folsäure",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
-    "Menge": 330.0,
-    "Einheit": "µg DFE"
+    "Menge": 200.0,
+    "Einheit": "µg"
   },
   {
     "Nährstoff": "Niacin (B3)",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
-    "Menge": 1.6,
-    "Einheit": "NE/MJ"
+    "Menge": 16.0,
+    "Einheit": "mg NE"
   },
   {
     "Nährstoff": "Pantothensäure (B5)",
@@ -45,8 +45,8 @@
     "Nährstoff": "Thiamin (B1)",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
-    "Menge": 0.1,
-    "Einheit": "mg/MJ"
+    "Menge": 1.2,
+    "Einheit": "mg"
   },
   {
     "Nährstoff": "Vitamin A",

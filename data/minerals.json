@@ -3,7 +3,7 @@
     "Nährstoff": "Calcium",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
-    "Menge": "1000",
+    "Menge": 1000.0,
     "Einheit": "mg"
   },
   {
@@ -94,7 +94,7 @@
     "Nährstoff": "Zink",
     "Alter": "18-65 Jahre",
     "Geschlecht": "Männlich",
-    "Menge": "11.7",
+    "Menge": 11.7,
     "Einheit": "mg"
   }
 ]
