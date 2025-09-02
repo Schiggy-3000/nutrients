@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Biotin",
+    "rda": 40.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Cobalamin (B12)",
+    "rda": 4.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Folsäure",
+    "rda": 200.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Niacin (B3)",
+    "rda": 16.0,
+    "unit": "mg NE"
+  },
+  {
+    "name": "Pantothensäure (B5)",
+    "rda": 5.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Riboflavin (B2)",
+    "rda": 1.6,
+    "unit": "mg"
+  },
+  {
+    "name": "Thiamin (B1)",
+    "rda": 1.2,
+    "unit": "mg"
+  },
+  {
+    "name": "Vitamin A",
+    "rda": 750.0,
+    "unit": "µg-RE"
+  },
+  {
+    "name": "Vitamin B6",
+    "rda": 1.7,
+    "unit": "mg"
+  },
+  {
+    "name": "Vitamin D",
+    "rda": 15.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Vitamin K",
+    "rda": 70.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Vitamin C",
+    "rda": 110.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Vitamin E",
+    "rda": 13.0,
+    "unit": "mg"
+  }
+]

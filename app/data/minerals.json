@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Calcium",
+    "rda": 1000.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Chlorid",
+    "rda": 3.1,
+    "unit": "g"
+  },
+  {
+    "name": "Kupfer",
+    "rda": 1.6,
+    "unit": "mg"
+  },
+  {
+    "name": "Fluorid",
+    "rda": 3.4,
+    "unit": "mg"
+  },
+  {
+    "name": "Jod",
+    "rda": 150.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Eisen",
+    "rda": 11.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Magnesium",
+    "rda": 350.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Mangan",
+    "rda": 3.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Molybdän",
+    "rda": 65.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Phosphor",
+    "rda": 550.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Kalium",
+    "rda": 3500.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Selen",
+    "rda": 70.0,
+    "unit": "µg"
+  },
+  {
+    "name": "Natrium",
+    "rda": 2000.0,
+    "unit": "mg"
+  },
+  {
+    "name": "Zink",
+    "rda": 11.7,
+    "unit": "mg"
+  }
+]

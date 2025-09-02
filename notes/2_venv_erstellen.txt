@@ -3,6 +3,11 @@
 --> Details in: .venv/pyvenv.cfg
 --> Path zu Python: c:\Users\NAMEVOMUSER\Anaconda3
 
+ODER
+
+Bash Termial öffen
+python -m venv .venv
+
 
 ### .venv aktivieren
 View > Command Palette > Python: Select Interpreter > .\venv\Scripts\python.exe
@@ -11,6 +16,13 @@ ACHTUNG, WENN PC ändert, muss ggf. im pyvenv.cfg die home Varaible geändert we
 Terminal > New Terminal >  Git Bash Terminal öffnen
 which python    --> Prüfen ob korrekte Python Runtime aktiv ist.
 pip list        --> Nur pip & setuptools sollten sichtbar sein.
+
+ODER
+
+Bash Terminal öffnen
+source .venv/bin/activate       --> Noch nicht getestet
+which python
+pip list
 
 
 ### Packages installieren

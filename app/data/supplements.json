@@ -1,0 +1,286 @@
+[
+  {
+    "supplement": "AG1",
+    "minerals": [
+        {
+            "name": "Calcium",
+            "rda": 120.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Chlorid",
+            "rda": 0.0,
+            "unit": "g"
+        },
+        {
+            "name": "Kupfer",
+            "rda": 0.2,
+            "unit": "mg"
+        },
+        {
+            "name": "Fluorid",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Jod",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Eisen",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Magnesium",
+            "rda": 57.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Mangan",
+            "rda": 0.4,
+            "unit": "mg"
+        },
+        {
+            "name": "Molybdän",
+            "rda": 45.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Phosphor",
+            "rda": 125.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Kalium",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Selen",
+            "rda": 22.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Natrium",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Zink",
+            "rda": 10.0,
+            "unit": "mg"
+        }
+    ],
+    "vitamins": [
+        {
+            "name": "Biotin",
+            "rda": 330.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Cobalamin (B12)",
+            "rda": 50.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Folsäure",
+            "rda": 300.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Niacin (B3)",
+            "rda": 16.0,
+            "unit": "mg NE"
+        },
+        {
+            "name": "Pantothensäure (B5)",
+            "rda": 5.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Riboflavin (B2)",
+            "rda": 2.9,
+            "unit": "mg"
+        },
+        {
+            "name": "Thiamin (B1)",
+            "rda": 3.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin A",
+            "rda": 250.0,
+            "unit": "µg-RE"
+        },
+        {
+            "name": "Vitamin B6",
+            "rda": 5.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin D",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Vitamin K",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Vitamin C",
+            "rda": 420.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin E",
+            "rda": 32.0,
+            "unit": "mg"
+        }
+    ]
+  },
+  {
+    "supplement": "Mineral Complete (More Nutrition)",
+    "minerals": [
+        {
+            "name": "Calcium",
+            "rda": 400.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Chlorid",
+            "rda": 0.0,
+            "unit": "g"
+        },
+        {
+            "name": "Kupfer",
+            "rda": 0.5,
+            "unit": "mg"
+        },
+        {
+            "name": "Fluorid",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Jod",
+            "rda": 125.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Eisen",
+            "rda": 14.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Magnesium",
+            "rda": 200.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Mangan",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Molybdän",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Phosphor",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Kalium",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Selen",
+            "rda": 55.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Natrium",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Zink",
+            "rda": 15.0,
+            "unit": "mg"
+        }
+    ],
+    "vitamins": [
+        {
+            "name": "Biotin",
+            "rda": 130.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Cobalamin (B12)",
+            "rda": 2.6,
+            "unit": "µg"
+        },
+        {
+            "name": "Folsäure",
+            "rda": 300.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Niacin (B3)",
+            "rda": 0.0,
+            "unit": "mg NE"
+        },
+        {
+            "name": "Pantothensäure (B5)",
+            "rda": 4.5,
+            "unit": "mg"
+        },
+        {
+            "name": "Riboflavin (B2)",
+            "rda": 1.4,
+            "unit": "mg"
+        },
+        {
+            "name": "Thiamin (B1)",
+            "rda": 0.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin A",
+            "rda": 600.0,
+            "unit": "µg-RE"
+        },
+        {
+            "name": "Vitamin B6",
+            "rda": 1.4,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin D",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Vitamin K",
+            "rda": 0.0,
+            "unit": "µg"
+        },
+        {
+            "name": "Vitamin C",
+            "rda": 60.0,
+            "unit": "mg"
+        },
+        {
+            "name": "Vitamin E",
+            "rda": 0.0,
+            "unit": "mg"
+        }
+    ]
+  }
+]
