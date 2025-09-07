@@ -2,10 +2,11 @@
 
 
 # Imports
-from typing import Dict, Any
+from typing import Dict, Any, List
+import json 
 
 
-print("hello")
+print("hello from minerals.py\n")
 
 class Mineral:
     """ Represents a mineral with its recommended daily amount (RDA). """
@@ -55,8 +56,53 @@ class Mineral:
 
 
 class MineralDB:
-
     """ Manages a collection of minerals and provides lookup functionality. """
 
     def __init__(self):
+        """ Initialize a DB instance. The DB will contain minerals as dicts. """
         self._minerals: Dict[str, Mineral] = {}
+    
+
+    def add_mineral(self, mineral: Mineral) -> None:
+        """ Add mineral do DB. """
+        
+        self._minerals[mineral.name] = mineral
+    
+
+    def remove_mineral(self, mineral: Mineral) -> None:
+        """ Remove mineral from DB. """
+
+        del self._minerals[mineral.name]
+
+    
+    def get_all_minerals(self) -> List[Mineral]:
+        """ Get mineral by name. """
+
+        return list(self._minerals.values())
+    
+
+    @classmethod
+    def load_minerals_into_db(cls,  filepath: str) -> 'MineralDB':
+        """
+        Load minerals into DB from JSON file.
+        
+        Args:
+            filepath: Path to JSON file containing mineral data.
+
+        Returns:
+            MineralDB instance.
+        """
+
+        database = cls()
+
+        try:
+            with open(filepath, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                print(data)
+
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Mineral data file not found: {filepath}")
+        except json.JSONDecodeError:
+            raise ValueError(f"Invalid JSON in file: {filepath}")
+        
+        return database
