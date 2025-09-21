@@ -5,34 +5,49 @@
 # app/models/supplements.py --> from supplements import add_supplement
 
 
-from models.minerals import Mineral
+from models.nutrients import Nutrient
 
-new_mineral_1 = Mineral(name="mymineral1", rda=1000, unit="mg")
-new_mineral_2 = Mineral(name="mymineral2", rda=2000, unit="mg")
-new_mineral_as_dict = new_mineral_1.to_dict()
-new_mineral_perc_of_rda = new_mineral_1.calculate_percentage_rda(500)
+new_mineral = Nutrient(name="mymineral1", rda=1000, unit="mg")
+new_vitamin = Nutrient(name="myvitamin1", rda=2000, unit="mg")
+new_mineral_as_dict = new_mineral.to_dict()
+new_mineral_perc_of_rda = new_mineral.calculate_percentage_rda(500)
 
 print("New minearal as dict: ", new_mineral_as_dict, "\n")
 print("New minearal percent of RDA: ", new_mineral_perc_of_rda, "\n")
 
 
-
-from models.minerals import MineralDB
-
-db = MineralDB()
-db.add_mineral(new_mineral_1)
-db.add_mineral(new_mineral_2)
-
-all_minerals = db.get_all_minerals()
-for m in all_minerals:
-    print(m.name)
-
-db.remove_mineral(new_mineral_2)
-all_minerals = db.get_all_minerals()
-for m in all_minerals:
-    print(m.name)
+print("#" * 100, "\n")
 
 
-### ERROR: models/minerals.py > load_minerals_into_db(data/minerals.json)
-### findet minerals.json nicht, da dieser Pfad relativ von minerals.py nicht korrekt ist.  
-db2 = MineralDB().load_minerals_into_db(filepath='data/minerals.json')
+
+from models.nutrients import NutrientDB
+
+db = NutrientDB()
+db.add_nutrient(new_mineral)
+db.add_nutrient(new_vitamin)
+
+all_nutrients = db.get_all_nutrients()
+for n in all_nutrients:
+    print(n.name)
+
+db.remove_nutrient(new_mineral)
+all_nutrients = db.get_all_nutrients()
+for n in all_nutrients:
+    print(n.name)
+
+
+print("#" * 100, "\n")
+
+
+# Load minerals into DB from minerals.py
+minerals_db = NutrientDB().load_nutrients_into_db(filepath='data/minerals.json')
+all_nutrients = minerals_db.get_all_nutrients()
+for n in all_nutrients:
+    print(n.name, n.rda, n.unit, "---->", n.calculate_percentage_rda(100))
+
+
+# Load vitamins into DB from vitamins.py
+vitamins_db = NutrientDB().load_nutrients_into_db(filepath='data/vitamins.json')
+all_nutrients = vitamins_db.get_all_nutrients()
+for n in all_nutrients:
+    print(n.name, n.rda, n.unit, "---->", n.calculate_percentage_rda(100))
