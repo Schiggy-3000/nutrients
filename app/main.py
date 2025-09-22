@@ -7,8 +7,8 @@
 
 from models.nutrients import Nutrient
 
-new_mineral = Nutrient(name="mymineral1", rda=1000, unit="mg")
-new_vitamin = Nutrient(name="myvitamin1", rda=2000, unit="mg")
+new_mineral = Nutrient(nutrient_type="Mineral", name="mymineral1", amount=1000, unit="mg")
+new_vitamin = Nutrient(nutrient_type="Vitamin", name="myvitamin1", amount=2000, unit="mg")
 new_mineral_as_dict = new_mineral.to_dict()
 new_mineral_perc_of_rda = new_mineral.calculate_percentage_rda(500)
 
@@ -16,9 +16,8 @@ print("New minearal as dict: ", new_mineral_as_dict, "\n")
 print("New minearal percent of RDA: ", new_mineral_perc_of_rda, "\n")
 
 
+
 print("#" * 100, "\n")
-
-
 
 from models.nutrients import NutrientDB
 
@@ -36,18 +35,20 @@ for n in all_nutrients:
     print(n.name)
 
 
-print("#" * 100, "\n")
 
-
-# Load minerals into DB from minerals.py
-minerals_db = NutrientDB().load_nutrients_into_db(filepath='data/minerals.json')
-all_nutrients = minerals_db.get_all_nutrients()
-for n in all_nutrients:
-    print(n.name, n.rda, n.unit, "---->", n.calculate_percentage_rda(100))
-
+print("Nutrients ", "#" * 100, "\n")
 
 # Load vitamins into DB from vitamins.py
-vitamins_db = NutrientDB().load_nutrients_into_db(filepath='data/vitamins.json')
-all_nutrients = vitamins_db.get_all_nutrients()
+nutrients_db = NutrientDB().load_nutrients_into_db(filepath='data/nutrients.json')
+all_nutrients = nutrients_db.get_all_nutrients()
 for n in all_nutrients:
-    print(n.name, n.rda, n.unit, "---->", n.calculate_percentage_rda(100))
+    print(n.nutrient_type, n.name, n.amount, n.unit, "---->", n.calculate_percentage_rda(100))
+
+
+print("AG1 ", "#" * 100, "\n")
+
+# Load vitamins into DB from vitamins.py
+ag1_db = NutrientDB().load_nutrients_into_db(filepath='data/supplement_ag1.json')
+all_nutrients = ag1_db.get_all_nutrients()
+for n in all_nutrients:
+    print(n.nutrient_type, n.name, n.amount, n.unit, "---->", n.calculate_percentage_rda(100))

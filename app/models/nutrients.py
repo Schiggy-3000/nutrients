@@ -11,18 +11,20 @@ print("hello from nutrients.py\n")
 class Nutrient:
     """ Represents a nutrient (mineral, vitamin) with its recommended daily amount (RDA). """
 
-    def __init__(self, name: str, rda: float, unit: str):
+    def __init__(self, nutrient_type: str, name: str, amount: int, unit: str):
         """
         Initialize a nutrient instance.
 
         Args:
+            nutrient type: Mineral, Vitamin
             name: Name of nutrient (e.g. Calcium, Chloride)
-            rda: Recommended daily amount (e.g. 200mg, 150µg)
+            amount: Recommended daily amount or amount contained in supplement (e.g. 200mg, 150µg)
             unit: Unit of measurement (g, mg, µg)
         """
 
+        self.nutrient_type = nutrient_type
         self.name = name
-        self.rda = rda
+        self.amount = amount
         self.unit = unit
     
 
@@ -30,8 +32,9 @@ class Nutrient:
         """ Convert nutrient to dictionary representation. """
 
         nutrient_as_dict = {
+            'nutrient_type': self.nutrient_type,
             'name': self.name,
-            'rda': self.rda,
+            'amount': self.amount,
             'unit': self.unit
         }
 
@@ -49,7 +52,10 @@ class Nutrient:
             Percentage of RDA, rounded to whole number.
         """
 
-        percentage_rda = int(round((amount / self.rda) * 100, 0))
+        if self.amount > 0:
+            percentage_rda = int(round((amount / self.amount) * 100, 0))
+        else:
+            percentage_rda = 0
 
         return percentage_rda
         
@@ -63,16 +69,16 @@ class NutrientDB:
         self._nutrients: Dict[str, Nutrient] = {}
     
 
-    def add_nutrient(self, mineral: Nutrient) -> None:
+    def add_nutrient(self, nutrient: Nutrient) -> None:
         """ Add nutrient do DB. """
         
-        self._nutrients[mineral.name] = mineral
+        self._nutrients[nutrient.name] = nutrient
     
 
-    def remove_nutrient(self, mineral: Nutrient) -> None:
+    def remove_nutrient(self, nutrient: Nutrient) -> None:
         """ Remove nutrient from DB. """
 
-        del self._nutrients[mineral.name]
+        del self._nutrients[nutrient.name]
 
     
     def get_all_nutrients(self) -> List[Nutrient]:
@@ -100,10 +106,11 @@ class NutrientDB:
                 data = json.load(file)
             
             for d in data:
+                nutrient_type = d['nutrient_type']
                 nutrient_name = d['name']
-                nutrient_rda = d['rda']
+                nutrient_amount = d['amount']
                 nutrient_unit = d['unit']
-                nutrient = Nutrient(name=nutrient_name, rda=nutrient_rda, unit=nutrient_unit)
+                nutrient = Nutrient(nutrient_type=nutrient_type, name=nutrient_name, amount=nutrient_amount, unit=nutrient_unit)
                 database.add_nutrient(nutrient)
                 
 

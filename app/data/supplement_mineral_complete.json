@@ -1,0 +1,164 @@
+[
+  {
+    "nutrient_type": "Mineral",
+    "name": "Calcium",
+    "rda": 400.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Chlorid",
+    "rda": 0.0,
+    "unit": "g"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Kupfer",
+    "rda": 0.5,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Fluorid",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Jod",
+    "rda": 125.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Eisen",
+    "rda": 14.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Magnesium",
+    "rda": 200.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Mangan",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Molybdän",
+    "rda": 0.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Phosphor",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Kalium",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Selen",
+    "rda": 55.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Natrium",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Mineral",
+    "name": "Zink",
+    "rda": 15.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Biotin",
+    "rda": 130.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Cobalamin (B12)",
+    "rda": 2.6,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Folsäure",
+    "rda": 300.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Niacin (B3)",
+    "rda": 0.0,
+    "unit": "mg NE"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Pantothensäure (B5)",
+    "rda": 4.5,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Riboflavin (B2)",
+    "rda": 1.4,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Thiamin (B1)",
+    "rda": 0.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin A",
+    "rda": 600.0,
+    "unit": "µg-RE"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin B6",
+    "rda": 1.4,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin D",
+    "rda": 0.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin K",
+    "rda": 0.0,
+    "unit": "µg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin C",
+    "rda": 60.0,
+    "unit": "mg"
+  },
+  {
+    "nutrient_type": "Vitamin",
+    "name": "Vitamin E",
+    "rda": 0.0,
+    "unit": "mg"
+  }
+]
